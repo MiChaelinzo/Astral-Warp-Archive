@@ -4,7 +4,7 @@ This file verifies the Agentic Economy Prize integration for the agent listed in
 
 IMPORTANT: This file currently contains placeholder values. Replace the placeholders below with real, public data to complete verification.
 
-- Public GitHub repository verifying the integration: https://github.com/PLACEHOLDER/PLACEHOLDER-REPO
+- Public GitHub repository verifying the integration: https://github.com/MiChaelinzo/Astral-Warp-Archive/agents?author=MiChaelinzo
 - Agent's Circle wallet address (proof of transaction): PLACEHOLDER_CIRCLE_WALLET_ADDRESS
 - Block explorer URL (clickable proof of transaction): https://PLACEHOLDER_BLOCK_EXPLORER/tx/PLACEHOLDER_TX_HASH
 
