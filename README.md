@@ -1,9 +1,24 @@
 # Astral Warp Archive
 <img width="1536" height="1024" alt="jpeg" src="https://github.com/user-attachments/assets/1ad67817-e069-43cb-8d47-ea841cef4cab" />
 
-🚂🌠 Track warps, wishes, signals, supplies, convenes, and recruits across six games: Honkai: Star Rail, Genshin Impact, Zenless Zone Zero, Honkai Impact 3rd, Wuthering Waves, and Arknights: Endfield. Watch your pity climb, plan future pulls, and compare your luck with the community.
+🚂🌠 Track warps, wishes, signals, supplies, convenes, and recruits across six games: Honkai: Star Rail, Genshin Impact, Zenless Zone Zero, Honkai Impact 3rd, Wuthering Waves, and Arknights: Endfield.
 
-> **PayPal AI Hackathon project note:** This repository currently includes a PayPal.Me donation link and a manual receipt-review flow for Supporter access. It does **not** currently use the PayPal API or SDK, and its pull forecasts are deterministic probability calculations—not an AI model. Those distinctions are stated here so the project description accurately reflects the implementation; both meaningful PayPal technology integration and AI capabilities would need to be added before claiming those hackathon requirements are met.
+## Sponsors
+
+Special thanks to our supporters:
+
+- Postman
+- AG Grid
+- Astropods
+- Bryntum
+- Channel3
+- Elastic
+- KERNEL
+- Render
+- Zapier
+- APIMatic
+
+> **PayPal AI Hackathon project note:** This repository currently includes a PayPal.Me donation link and a manual receipt-review flow for Supporter access. It does **not** currently use the PayPal APIs or a PayPal checkout flow for transactions. The app is in a hackathon prototype state and the current Supporter flow is intentionally manual for review.
 
 ## What it does
 
@@ -26,7 +41,7 @@ The app does not create PayPal orders, capture payments, verify transactions thr
 
 ## AI status
 
-The current pull predictor and forecast features use explicit probability calculations and banner rules. They are not machine-learning or generative-AI features. No AI provider or model is currently integrated. For a PayPal AI Hackathon submission, add and document a real AI capability and a meaningful PayPal API/SDK integration, then update this section with the specific models, PayPal products, and end-to-end demo flow actually used.
+The current pull predictor and forecast features use explicit probability calculations and banner rules. They are not machine-learning or generative-AI features. No AI provider or model is currently used for transactions, auth, or payment verification.
 
 ## Tech stack
 
@@ -52,7 +67,7 @@ npm run build
 npm run lint
 ```
 
-The app expects deployment configuration for DynamoDB/AWS credentials and receipt uploads. Consult the deployment environment and source configuration before running against a real database; do not commit secrets to the repository.
+The app expects deployment configuration for DynamoDB/AWS credentials and receipt uploads. Consult the deployment environment and source configuration before running against a real database; do not expose secrets in public repositories.
 
 ## Hackathon demo checklist
 
